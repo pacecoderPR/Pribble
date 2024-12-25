@@ -1,4 +1,4 @@
-# DOODLEQUEST
+# PRIBBLE
 
 ## Description
 This project is a multiplayer drawing and guessing game inspired by Scribble. It allows users to connect with friends, chat in real-time, and engage in a creative and interactive gameplay experience.
@@ -36,7 +36,7 @@ This project is a multiplayer drawing and guessing game inspired by Scribble. It
 ## FrontEnd
 - Open a new terminal.
 
-- Navigate to the `Scribble_MERN` directory:
+- Navigate to the `Frontend` directory:
    ```bash
    cd Frontend
    npm install
