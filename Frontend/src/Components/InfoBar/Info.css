@@ -1,0 +1,21 @@
+.info_Main {
+    background-color: rgb(250, 111, 111); /* Darker shade */
+    width: 1047px;
+    height: 40px;
+    margin-top: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.info_Main section {
+    margin: 0px 10px;
+}
+.info_Main section input {
+    padding: 5px;
+    width: 16rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(80, 80, 80); /* Darker input */
+    color: #fff; /* Lighter text */
+    border: none;
+}

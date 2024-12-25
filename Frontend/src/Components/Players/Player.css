@@ -1,0 +1,23 @@
+.player_main {
+    margin: 0px;
+    background-color: rgb(235, 253, 195); /* Darker shade */
+    width: 210px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #333; /* Darker border */
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.player_main h1 {
+    margin-top: 20px;
+    color: #131212; /* Lighter text */
+}
+.player {
+    padding: 2px 15px;
+    width: 150px;
+    margin: 10px 0px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    color: #242121; /* Lighter text */
+}

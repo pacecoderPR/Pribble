@@ -1,0 +1,25 @@
+.join_main {
+    height: 88vh;
+    background-color: rgb(246, 114, 114); /* Darker shade */
+    padding-top: 30px;
+}
+.join_main input::placeholder {
+    font-size: 20px;
+    color: #ccc; /* Lighter placeholder */
+}
+.join_main input {
+ padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #666; /* Darker border */
+    background-color: rgb(80, 80, 80); /* Darker input */
+    color: #fff; /* Lighter text */
+}
+.join_main button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #def6b9; /* Darker button */
+    color: #fff; /* Lighter text */
+    border: none;
+    cursor: pointer;
+}
