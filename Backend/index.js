@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 
 const corsOptions = {
-    origin: ["http://localhost:5173" ],
+    origin: ["http://localhost:5173" ,"https://pribble.vercel.app"],
     credentials: true, 
 };
 
@@ -19,7 +19,7 @@ app.use(cors(corsOptions));
 
 const io = new Server(server, {
     cors: {
-        origin: ["https://doodlequest.vercel.app"],
+        origin: ["https://doodlequest.vercel.app","https://pribble.vercel.app"],
         credentials: true,
     }
 });
@@ -146,7 +146,7 @@ app.get('/userList', async (req, res) => {
 app.get("/", (req, response) => {
     response.send("Live Now")
 })
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 3000;
 server.listen(3000, () => {
-    console.log("Server Running on port 8000");
+    console.log(`Server Running on port ${PORT}`);
 });
