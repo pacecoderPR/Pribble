@@ -19,7 +19,7 @@ app.use(cors(corsOptions));
 
 const io = new Server(server, {
     cors: {
-        origin: ["https://doodlequest.vercel.app","https://pribble.vercel.app"],
+        origin: ["http://localhost:5173","https://pribble.vercel.app"],
         credentials: true,
     }
 });
